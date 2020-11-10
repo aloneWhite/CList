@@ -24,3 +24,4 @@ test : shared
 clean :
 	$(RM) -rf *.p src/*.o test/*.o
 	$(RM) -rf libclist.*
+	$(RM) -rf clist-demo
